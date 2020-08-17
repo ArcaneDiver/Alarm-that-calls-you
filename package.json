@@ -1,0 +1,16 @@
+{
+  "name": "sveglia-nonno",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cron": "^1.8.2",
+    "twilio": "^3.48.2"
+  },
+  "devDependencies": {
+    "dotenv-safe": "^8.2.0"
+  }
+}
