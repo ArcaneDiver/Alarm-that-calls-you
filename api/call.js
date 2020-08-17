@@ -7,4 +7,8 @@ module.exports = async (req, res) => {
                 to: process.env.PHONO_NUMBER_TO,
                 url: process.env.TWIML_XML
         });
+
+        res.json({
+                ok: true
+        })
 }
